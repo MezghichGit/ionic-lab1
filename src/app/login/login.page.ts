@@ -12,4 +12,9 @@ export class LoginPage implements OnInit {
   ngOnInit() {
   }
 
+  auth() {
+    console.log("Un click");
+    //1- recupérer le login + password
+    //2- redirection vers la page home
+  }
 }
